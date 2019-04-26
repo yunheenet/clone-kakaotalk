@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .box {
+    background-color: gray;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box:hover {
+    background-color: darkgrey;
+    box-shadow: 0 5px 10px 0px gray;
+    /*<offset-x> <offset-y> <blur-radius> <spread-radius> <color>*/
+  }
+
+  .box h2 {
+    color: white;
+    height: 100%;
+  }
+  
+  .image {
+    margin-top: 40px;
+    width: 250px;
+    height: 200px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .image:hover {
+    transform: rotate(120deg) scale(0.7, 0.7);
+    border: 5px black solid;
+  }
+  
