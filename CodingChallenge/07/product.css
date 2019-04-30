@@ -1,0 +1,45 @@
+.product {
+  background-color: black;
+  width: 275px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .product__item {
+  background-color: white;
+  width: 83%;
+  height: 85%;
+  border-radius: 2%;
+  padding: 20px 20px;
+}
+
+.product .product__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product .product__description {
+  font-size: 10px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.product .product__detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .product__price {
+  font-weight: 600;
+}
+
+.product .product__star {
+  color: #febd51;
+}
+
+.product .product__rating {
+  opacity: 0.8;
+  font-size: 10px;
+}

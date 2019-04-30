@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,600");
+@import "product.css";
+@import "profile.css";
+
+* {
+  font-family: "Raleway", sans-serif;
+}

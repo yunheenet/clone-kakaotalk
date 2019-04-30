@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Coding Challenge Days 07</title>
+  </head>
+  <body>
+    <section class="product">
+      <div class="product__item">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+          class="product__image"
+        />
+        <div class="product__content">
+          <div class="product__title">
+            Apple AirPods
+          </div>
+          <div class="product__description">
+            Combine intelligent design with breakthrough technology and crystal
+            clear sound.
+          </div>
+        </div>
+        <div class="product__detail">
+          <div class="product__column">
+            <span class="product__price">
+              $158
+            </span>
+          </div>
+          <div class="product__column">
+            <span class="product__star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </span>
+            <span class="product__rating">
+              16
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="profile">
+      <div class="profile__item">
+        <div class="profile__image">
+          <img src="avatar.jpg" class="profile__avatar" />
+        </div>
+        <div class="profile__content">
+          <div class="profile__name">Iron Man</div>
+          <div class="profile__job">Hero</div>
+        </div>
+        <div class="profile__action">
+          <div class="profile__column profile__follow-btn">
+            Follow
+          </div>
+          <div class="profile__column profile__message-btn">
+            Message
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
