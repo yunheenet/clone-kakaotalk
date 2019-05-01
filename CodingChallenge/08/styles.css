@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:600");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+body {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+}
+
+span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+p {
+  color: #e2283e;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+}
+
+input::placeholder {
+  padding-left: 10px;
+  opacity: 0.6;
+}
+
+.header .header__title {
+  margin-bottom: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.signin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signin .signin__password {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.signin .signin__find {
+  text-align: right;
+}
+
+.signin .signin__remember {
+  display: flex;
+  align-items: center;
+}
+
+.signin .signin__remember-text {
+  margin-left: 5px;
+}
+
+.signin .signin__btn {
+  margin-top: 50px;
+  background-color: #e2283e;
+  height: 50px;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .signin__or {
+  margin: 30px 0;
+}
+
+.signin .signin__others {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.signin .signin__column {
+  color: white;
+  width: 48%;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .facebook {
+  background-color: #475a95;
+}
+
+.signin .twitter {
+  background-color: #5da1f2;
+}
+
+.signin .signin__suggestion {
+  margin: 5px 0;
+  display: flex;
+}
